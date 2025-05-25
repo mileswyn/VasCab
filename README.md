@@ -20,9 +20,5 @@ $ pip install requirements.txt
 ### Dataset Link
 #### Baidu Cloud Drive
 ```
-https://pan.baidu.com/s/1TlxqZHl6T17on_f3BDixmA (Extract code：hwwd)
-```
-#### Google Cloud Drive
-```
-https://drive.google.com/file/d/1idT6rCKXry-Yc8GF-DBxEn6e32-pBiFF/view?usp=sharing
+https://pan.baidu.com/s/1-F_2Uv0GasZBaKRCQIHhBQ (Extract Code: gwqc)
 ```
