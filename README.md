@@ -15,6 +15,7 @@ $ git clone https://github.com/mileswyn/VasCab.git
 $ cd VasCab/
 $ pip install requirements.txt
 ```
+For more details about Installation, please refer to [nnU-Net](https://github.com/MIC-DKFZ/nnUNet).
 
 ### 2. Data
 ### Dataset Link
@@ -22,3 +23,21 @@ $ pip install requirements.txt
 ```
 https://pan.baidu.com/s/1-F_2Uv0GasZBaKRCQIHhBQ (Extract Code: gwqc)
 ```
+
+### 3. Code
+#### step 1: dataset conversations
+Use codes in /nnunet/dataset/conversation to handle each sub-dataset.
+#### step 2: create plans
+Run codes in /nnunet/experiment_planning to preprocess each sub-dataset.
+#### step 3: Merge plans
+Run /toolbox/merge_each_sub_datasets.py to merge and generate a new plan for training the universal model.
+#### step 4: train models
+Run /nnunet/run/run_training_universal.py
+#### step 5: inference
+Run /nnunet/inference/predict_simple_305_V3.py to infer each dataset. Remember to adapt the configuration.
+
+## TODO
+- [] Downstream code
+- [] Modular modification
+
+## Citation
