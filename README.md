@@ -38,6 +38,10 @@ Run /nnunet/inference/predict_simple_305_V3.py to infer each dataset. Remember t
 
 ## TODO
 - [] Downstream code
+- [] DPAM updated version
 - [] Modular modification
 
 ## Citation
+
+## Acknowlegment
+We thank original dataset owners and the researchers of nnU-Net.
